@@ -1,6 +1,6 @@
 export default function LandingInfoCard() {
     return (
-        <div className="rounded-lg border-gray-300 border-[2px] p-8 w-3/5 h-2/5 flex flex-col justify-center items-center align-middle">
+        <div className="rounded-lg border-gray-300 border-[2px] p-8 w-full sm:w-3/5 flex flex-col justify-center items-center align-middle">
             <div className="text-2xl font-bold text-gray-500">
                 Welcome to Fuzzylive!
             </div>
