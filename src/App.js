@@ -6,11 +6,11 @@ import NavBar from './navbar';
 
 function App() {
   return (
-    <div className='w-full flex flex-col justify-center items-center align-middle'>
+    <div className='w-full h-screen flex flex-col justify-start items-center align-middle'>
       <div className='w-full mb-2'>
         <NavBar />
       </div>
-      <div className='w-full sm:w-3/5'>
+      <div className='w-full sm:w-3/5 h-full'>
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<h1>About</h1>} /> */}
