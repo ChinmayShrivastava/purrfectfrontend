@@ -25,12 +25,10 @@ export default function QueryBar( { setPets } ) {
             setLoading(true);
             getMatchesAPI(query).then((matches) => {
                 setPets(matches);
-                console.log(matches)
                 setQuery('');
                 setLoading(false);
             }
             ).catch((err) => {
-                console.log(err);
                 setLoading(false);
             }
             );
