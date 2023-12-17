@@ -55,6 +55,11 @@ export default function PetOverlay({ pet , setSelectedPet }) {
                                             </p>
                                         </div>
                                         }
+                                        {pet.url &&
+                                        <div className="mt-2 w-full flex justify-end">
+                                            <a className="text-md text-white rounded-md font-semibold bg-blue-500 p-2 ml-2" href={pet.url} target="_blank" rel="noopener noreferrer">Link to Adopt</a>
+                                        </div>
+                                        }
                                     </div>
                                 </div>
                             </div>
